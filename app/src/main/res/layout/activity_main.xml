@@ -19,35 +19,42 @@
         <Button
             android:id="@+id/buttonBack"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:text="@string/back"/>
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:text="@string/email_sign_up"/>
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:text="@string/fill_out_information"/>
 
         <EditText
             android:id="@+id/editTextEmail"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:hint="@string/email"/>
 
         <EditText
             android:id="@+id/editTextPassword"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:hint="@string/password"/>
 
         <EditText
             android:id="@+id/editTextConfirmPassword"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:hint="@string/confirm_password"/>
 
         <Button
             android:id="@+id/buttonCreateAccount"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:text="@string/create_account"/>
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -56,12 +63,14 @@
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:text="@string/already_have_account"/>
 
             <Button
                 android:id="@+id/buttonLogin"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:text="@string/login"/>
 
         </LinearLayout>
 
